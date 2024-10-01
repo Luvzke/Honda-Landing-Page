@@ -19,14 +19,9 @@ header {
     line-height: 10px;
 }
 
-ul {
-    align-items: center;
-    display: flex;
-    gap: 40px;
-}
-
 li {
     display: inline-block;
+    padding: 20px;
 }
 
 a {
@@ -60,7 +55,7 @@ main {
     margin-top: 50px;
 }
 
-h2 {
+aside>.tittle02>h2 {
     font-size: 56px;
     line-height: 10px;
     font-family: poppinsmedium;

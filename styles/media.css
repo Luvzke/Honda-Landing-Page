@@ -1,0 +1,128 @@
+@media screen and (max-width: 760px) {
+    header {
+        flex-direction: column;
+        text-align: center;
+    }
+    main {
+        flex-direction: column;
+    }
+
+    ul {
+        padding: 15px;
+    }
+
+    div.tittle02 {
+        text-align: center;
+    }
+
+    aside>div.tittle02>h2 {
+        font-size: 35px;
+    }
+
+    p {
+        padding: 18px;
+        text-align: center;
+    }
+
+    form {
+        margin: 0 auto;
+        width: 100%;
+    }
+
+    input {
+        align-self: center;
+    }
+
+    img {
+        width: 300px;
+        margin-top: 50px;   
+    }
+
+    article {
+        align-self: center;
+    }
+}
+
+@media screen and (max-width: 834px) {
+    header {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    article>img {
+        width: 250px;
+        margin-top: 40px;   
+    }
+}
+
+@media screen and (max-width: 1017px) {
+   
+    aside>div.tittle02>h2 {
+        font-size: 35px;
+    }
+
+    article>img {
+        width: 300px;
+        margin-top: 40px;   
+    }
+}
+
+@media screen and (max-width: 1280px) {
+    main {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    aside {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #tittle {
+        align-items: center;
+    }
+
+    aside>.tittle02>h2 {
+        display: inline-block;
+        margin: 18px;
+        margin-top: 30px;
+        font-size: 55px;
+    }
+
+    p {
+        margin-top: 67px;
+        text-align: center;
+    }
+
+    form {
+        margin-top: 40px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        width: 48%;
+    }
+    
+    form [type="submit"] {
+        height: 50px;
+        width: 50%;
+        background-color: rgb(191, 15, 15);
+        color: white;
+        font-weight: bold;
+        align-self: center;
+    }
+    
+    form [type="submit"]:hover {
+        cursor: pointer;
+    }
+
+    img {
+        width: 350px;
+        margin-top: 50px;   
+    }
+
+    article {
+        align-self: center;
+    }
+}
