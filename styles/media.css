@@ -3,20 +3,27 @@
         flex-direction: column;
         text-align: center;
     }
-    main {
-        flex-direction: column;
-    }
 
     ul {
         padding: 15px;
     }
 
-    div.tittle02 {
-        text-align: center;
+    main {
+        flex-direction: column;
     }
 
-    aside>div.tittle02>h2 {
-        font-size: 35px;
+    div.tittle02 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #access {
+        font-size: 23px;
+    }
+
+    .tittle02 h2:nth-of-type(2) {
+        font-size: 23px;
     }
 
     p {
@@ -125,4 +132,5 @@
     article {
         align-self: center;
     }
+
 }
